@@ -1,0 +1,41 @@
+{% include "header.html" %}
+
+<!-- Page Header -->
+<header
+  class="masthead"
+  style="background-image: url({{ url_for('static', filename='img/about-bg.jpg')}})"
+>
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="page-heading">
+          <h1>About Me</h1>
+          <span class="subheading">This is what I do.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Main Content -->
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
+      <p>
+        My self Ritesh. I am a college student. I am learning coding online. I
+        am using youtube, <strong><i>Udemy</i></strong> and sololearn to learn
+        coding. I like anime.I know <strong><i>Python</i></strong> and
+        <strong><i>Web Development</i></strong>
+      </p>
+      <p>
+        This project is from one of the modules of Angela sensei's course 100
+        days of code: Python Bootcamp on Udemy.
+      </p>
+    </div>
+  </div>
+</div>
+
+<hr />
+
+{% include "footer.html" %}
